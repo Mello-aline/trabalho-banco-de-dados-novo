@@ -20,6 +20,7 @@ INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Davi', 'DS', 16, 'Centro')
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Julia', 'Regular', 17, 'Parque São João');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Davi', 'Regular', 17, 'Parque São João');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Nickolas João', 'DS', 16, 'Emboguaçu');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Luís Eduardo', 'DS', 17, 'Vila São Jorge');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Nickolas Levy', 'DS', 16, 'Parque Agari');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Angelo', 'DS', 16, 'São Vicente');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Deny', 'DS', 16, 'São Vicente');
@@ -28,10 +29,11 @@ INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('João Colla', 'DS', 17, 'E
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Matheus Ventura', 'DS', 16, 'Emboguaçu');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Rafaela', 'DS', 17, 'São Jorge');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Pedro', 'Portos', 16, 'Jardim Iguaçu');
-INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Rafaella', 'Regular', 17, 'Parque São João');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Rafaella', 'Regular', 16, 'Jardim Figueiras');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Matheus Araujo', 'DS', 17, 'Parque São João');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Mariana', 'DS', 17, 'Vila Garcia');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Alane', 'Portos', 16, 'Vila Garcia');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Eduardo', 'Portos', 16, 'Ponta do Caju');
 
 
 -- pesquisa específica
