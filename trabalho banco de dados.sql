@@ -17,8 +17,8 @@ INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Allicy', 'Portos', 16, 'Vi
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Melissa', 'Portos', 16, 'Bockmann');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Nicolas', 'Regular', 17, 'Beira Rio');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Davi', 'DS', 16, 'Centro');
-INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Julia', 'Regular', 17, 'Parque São João');
-INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Davi', 'Regular', 17, 'Parque São João');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Julia', 'Regular', 17, 'Centro');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Davi', 'Regular', 17, 'Jardim Vila Rosa');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Nickolas João', 'DS', 16, 'Emboguaçu');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Luís Eduardo', 'DS', 17, 'Vila São Jorge');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Nickolas Levy', 'DS', 16, 'Parque Agari');
@@ -31,14 +31,18 @@ INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Rafaela', 'DS', 17, 'São 
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Pedro', 'Portos', 16, 'Jardim Iguaçu');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Rafaella', 'Regular', 16, 'Jardim Figueiras');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Matheus Araujo', 'DS', 17, 'Parque São João');
-INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Mariana', 'DS', 17, 'Vila Garcia');
+INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Mariana', 'DS', 16, 'Vila Garcia');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Alane', 'Portos', 16, 'Vila Garcia');
 INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Eduardo', 'Portos', 16, 'Ponta do Caju');
 
 
 -- pesquisa específica
-SELECT * FROM AGV WHERE TURMA = 'Portos' and IDADE = 16;
+SELECT * FROM AGV WHERE TURMA = 'Portos'
+SELECT * FROM AGV WHERE IDADE = 17
+SELECT * FROM AGV WHERE BAIRRO = 'Emboguaçu'
+SELECT * FROM AGV WHERE NOME = 'João'
+
 
 
 -- pesquisa geral
-SELECT * FROM AGV
+SELECT * FROM AGV;
