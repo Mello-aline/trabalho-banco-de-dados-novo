@@ -37,10 +37,10 @@ INSERT INTO AGV (Nome, Turma, Idade, Bairro) VALUES ('Eduardo', 'Portos', 16, 'P
 
 
 -- pesquisa específica
-SELECT * FROM AGV WHERE TURMA = 'Portos'
-SELECT * FROM AGV WHERE IDADE = 17
-SELECT * FROM AGV WHERE BAIRRO = 'Emboguaçu'
-SELECT * FROM AGV WHERE NOME = 'João'
+SELECT * FROM AGV WHERE TURMA = 'Portos';
+SELECT * FROM AGV WHERE IDADE = 17;
+SELECT * FROM AGV WHERE BAIRRO = 'Emboguaçu';
+SELECT * FROM AGV WHERE NOME = 'João';
 
 
 
